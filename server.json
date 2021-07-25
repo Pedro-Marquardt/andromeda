@@ -1,0 +1,26 @@
+{
+    "produtos": [
+        {
+            "id": 1,
+            "photo": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-12-purple-select-2021?wid=470&hei=556&fmt=png-alpha&.v=1617130317000",
+            "name": "Iphone",
+            "description": "Descrição",
+            "price": 5000
+        },
+
+        {
+            "id": 2,
+            "photo": "",
+            "name": "Galaxy",
+            "description": "Descrição",
+            "price": 5000
+        },
+        {
+            "id": 3,
+            "photo": "",
+            "name": "aaaaa",
+            "description": "aaaaaDescrição",
+            "price": 5000
+        }
+    ]
+}
