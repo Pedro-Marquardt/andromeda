@@ -1,4 +1,4 @@
-import styled ,{css} from 'styled-components';
+import styled  from 'styled-components';
 import media from 'styled-media-query';
 
 
@@ -7,11 +7,16 @@ export const Container = styled.div `
     height: 5rem;
     background: blueviolet;
     display: flex;
+    position: fixed;
+    top:0;
     justify-content: space-between;
     padding-top: 1.2rem;
     ${media.lessThan('medium')`
         flex-direction: column;
         height: auto;
+        position: absolute;
+        top:0;
+
     `}
 `;
 
@@ -45,6 +50,10 @@ export const Logo = styled.div`
         padding-top: 0.8rem;
         padding-left: 2rem;
         
+    }
+
+    a{
+        text-decoration: none;
     }
 
     ${media.lessThan('medium')`

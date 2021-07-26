@@ -7,9 +7,13 @@ export const Container = styled.footer`
     height: 5rem;
     overflow: hidden;
     background: blueviolet;
-    position:absolute;
+    position: fixed;
     bottom:0;
     text-align : center ;
+    display:none;
+    ${media.lessThan('medium')`
+        display:none;
+    `}
     p{
         color: #FFF;
         size: 24px;
